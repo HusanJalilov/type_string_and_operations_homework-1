@@ -5,6 +5,7 @@ def main(x,y):
         x: int
         y: int
     Returns:
-        str: return answer.
+        str: return answer.  "(x+y)*2={ifoda natijasi}" 
     """
-    return 
+    return "\"("+str(x)+"+"+str(y)+")*2="+str((x+y)*2)+"\""
+print(main(2,3))
